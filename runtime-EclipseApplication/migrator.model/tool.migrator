@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<migrator:mBase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:migrator="http://www.fit4003.org/migrator">
+  <migrators name="Ionic3Migrator" projectPath="">
+    <components xsi:type="migrator:IonButton" name="IonButton" filePath=""/>
+    <components xsi:type="migrator:IonViewDidLoad" name="IonViewDidLoad" filePath=""/>
+    <components xsi:type="migrator:IonLabel" name="IonLabel" filePath=""/>
+    <components xsi:type="migrator:IonicImport" name="IonicImport" filePath=""/>
+    <components xsi:type="migrator:IonicPageAnnotation" name="IonicPageAnnotation" filePath=""/>
+    <components xsi:type="migrator:IonNavbar" name="IonNavbar" filePath=""/>
+    <components xsi:type="migrator:InjectableAnnotation" name="InjectableAnnotation" filePath=""/>
+    <components xsi:type="migrator:RenameFiles" name="RenameFiles" filePath=""/>
+  </migrators>
+</migrator:mBase>

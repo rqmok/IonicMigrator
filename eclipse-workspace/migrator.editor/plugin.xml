@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated migrator -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="migrator.presentation.MigratorModelWizardID"
+            name="%_UI_MigratorModelWizard_label"
+            class="migrator.presentation.MigratorModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/MigratorModelFile.gif">
+         <description>%_UI_MigratorModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated migrator -->
+      <editor
+            id="migrator.presentation.MigratorEditorID"
+            name="%_UI_MigratorEditor_label"
+            icon="icons/full/obj16/MigratorModelFile.gif"
+            extensions="migrator"
+            class="migrator.presentation.MigratorEditor"
+            contributorClass="migrator.presentation.MigratorActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

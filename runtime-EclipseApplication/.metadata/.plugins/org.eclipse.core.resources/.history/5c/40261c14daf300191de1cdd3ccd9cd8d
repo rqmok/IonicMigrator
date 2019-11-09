@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="migrator" version="12.0.0.2017041100">
+  <ownedViewpoints name="MigratorViewpoint" modelFileExtension="migrator">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="MigratorDescription" domainClass="migrator::mBase" enablePopupBars="true">
+      <metamodel href="http://www.fit4003.org/migrator#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="migratorNode" domainClass="migrator::Migrator">
+          <style xsi:type="style:EllipseNodeDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="ionButtonNode" domainClass="migrator::IonButton">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="ionViewDidLoadNode" domainClass="migrator::IonViewDidLoad">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/migrator.design/description/images/loading.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="ionLabelNode" domainClass="migrator::IonLabel">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/migrator.design/description/images/price-tag.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="ionicImportNode" domainClass="migrator::IonicImport">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/migrator.design/description/images/import.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="ionicPageAnnotationNode" domainClass="migrator::IonicPageAnnotation">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/migrator.design/description/images/menu.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="ionNavbarNode" domainClass="migrator::IonNavbar">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/migrator.design/description/images/maps-and-flags.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="renameFilesNode" domainClass="migrator::RenameFiles">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/migrator.design/description/images/file.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="injectableAnnotationNode" domainClass="migrator::InjectableAnnotation">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/migrator.design/description/images/at.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="migratorToIonButton" sourceMapping="//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@nodeMappings[name='migratorNode']" targetMapping="//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@nodeMappings[name='ionButtonNode']" targetFinderExpression="[components/]">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="migratorToIonViewDidLoad" sourceMapping="//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@nodeMappings[name='migratorNode']" targetMapping="//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@nodeMappings[name='ionViewDidLoadNode']" targetFinderExpression="[components/]">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="migratorToIonLabel" sourceMapping="//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@nodeMappings[name='migratorNode']" targetMapping="//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@nodeMappings[name='ionLabelNode']" targetFinderExpression="[components/]">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="migratorToIonicImport" sourceMapping="//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@nodeMappings[name='migratorNode']" targetMapping="//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@nodeMappings[name='ionicImportNode']" targetFinderExpression="[components/]">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="migratorToIonicPageAnnotation" sourceMapping="//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@nodeMappings[name='migratorNode']" targetMapping="//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@nodeMappings[name='ionicPageAnnotationNode']" targetFinderExpression="[components/]">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="migratorToIonNavbar" sourceMapping="//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@nodeMappings[name='migratorNode']" targetMapping="//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@nodeMappings[name='ionNavbarNode']" targetFinderExpression="[components/]">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="migratorToRenameFiles" sourceMapping="//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@nodeMappings[name='migratorNode']" targetMapping="//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@nodeMappings[name='renameFilesNode']" targetFinderExpression="[components/]">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="migratorToInjectableAnnotation" sourceMapping="//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@nodeMappings[name='migratorNode']" targetMapping="//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@nodeMappings[name='injectableAnnotationNode']" targetFinderExpression="[components/]">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <toolSections name="migratorSection">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="createMigrator" nodeMappings="//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@nodeMappings[name='migratorNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="migrator::Migrator" referenceName="migrators"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="createButton">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="migrator::Button" referenceName="components"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="migrator.design.Services"/>
+  </ownedViewpoints>
+</description:Group>

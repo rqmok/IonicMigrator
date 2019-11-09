@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/migrator/src-gen" creationIcons="false" editDirectory="/migrator.edit/src-gen"
+    editorDirectory="/migrator.editor/src-gen" modelPluginID="migrator" modelName="Migrator"
+    rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" codeFormatting="true"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="8.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>migrator.ecore</foreignModel>
+  <testsDirectory xsi:nil="true"/>
+  <genPackages prefix="Migrator" disposableProviderFactory="true" ecorePackage="migrator.ecore#/">
+    <genClasses ecoreClass="migrator.ecore#//mBase">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference migrator.ecore#//mBase/migrators"/>
+    </genClasses>
+    <genClasses ecoreClass="migrator.ecore#//Migrator">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute migrator.ecore#//Migrator/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute migrator.ecore#//Migrator/projectPath"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference migrator.ecore#//Migrator/components"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="migrator.ecore#//Component">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute migrator.ecore#//Component/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute migrator.ecore#//Component/filePath"/>
+      <genOperations ecoreOperation="migrator.ecore#//Component/migrate" body="return &quot;Hello World from Component&quot;;">
+        <genParameters ecoreParameter="migrator.ecore#//Component/migrate/projectPath"/>
+        <genParameters ecoreParameter="migrator.ecore#//Component/migrate/filePath"/>
+      </genOperations>
+    </genClasses>
+    <genClasses ecoreClass="migrator.ecore#//IonButton">
+      <genOperations ecoreOperation="migrator.ecore#//IonButton/migrate" suppressedVisibility="true"
+          body="return &quot;Hello World from IonButton&quot;;">
+        <genParameters ecoreParameter="migrator.ecore#//IonButton/migrate/projectPath"/>
+        <genParameters ecoreParameter="migrator.ecore#//IonButton/migrate/filePath"/>
+      </genOperations>
+    </genClasses>
+    <genClasses ecoreClass="migrator.ecore#//IonViewDidLoad">
+      <genOperations ecoreOperation="migrator.ecore#//IonViewDidLoad/migrate" suppressedVisibility="true"
+          body="return &quot;Hello World from IonViewDidLoad&quot;;">
+        <genParameters ecoreParameter="migrator.ecore#//IonViewDidLoad/migrate/projectPath"/>
+        <genParameters ecoreParameter="migrator.ecore#//IonViewDidLoad/migrate/filePath"/>
+      </genOperations>
+    </genClasses>
+    <genClasses ecoreClass="migrator.ecore#//IonLabel">
+      <genOperations ecoreOperation="migrator.ecore#//IonLabel/migrate" suppressedVisibility="true"
+          body="return &quot;Hello World from IonLabel&quot;;">
+        <genParameters ecoreParameter="migrator.ecore#//IonLabel/migrate/projectPath"/>
+        <genParameters ecoreParameter="migrator.ecore#//IonLabel/migrate/filePath"/>
+      </genOperations>
+    </genClasses>
+    <genClasses ecoreClass="migrator.ecore#//IonicImport">
+      <genOperations ecoreOperation="migrator.ecore#//IonicImport/migrate" suppressedVisibility="true"
+          body="return &quot;Hello World from IonicImport&quot;;">
+        <genParameters ecoreParameter="migrator.ecore#//IonicImport/migrate/projectPath"/>
+        <genParameters ecoreParameter="migrator.ecore#//IonicImport/migrate/filePath"/>
+      </genOperations>
+    </genClasses>
+    <genClasses ecoreClass="migrator.ecore#//IonicPageAnnotation">
+      <genOperations ecoreOperation="migrator.ecore#//IonicPageAnnotation/migrate"
+          suppressedVisibility="true" body="return &quot;Hello World from IonicPageAnnotation&quot;;">
+        <genParameters ecoreParameter="migrator.ecore#//IonicPageAnnotation/migrate/projectPath"/>
+        <genParameters ecoreParameter="migrator.ecore#//IonicPageAnnotation/migrate/filePath"/>
+      </genOperations>
+    </genClasses>
+    <genClasses ecoreClass="migrator.ecore#//IonNavbar">
+      <genOperations ecoreOperation="migrator.ecore#//IonNavbar/migrate" suppressedVisibility="true"
+          body="return &quot;Hello World from IonNavbar&quot;;">
+        <genParameters ecoreParameter="migrator.ecore#//IonNavbar/migrate/projectPath"/>
+        <genParameters ecoreParameter="migrator.ecore#//IonNavbar/migrate/filePath"/>
+      </genOperations>
+    </genClasses>
+    <genClasses ecoreClass="migrator.ecore#//RenameFiles">
+      <genOperations ecoreOperation="migrator.ecore#//RenameFiles/migrate" suppressedVisibility="true"
+          body="return &quot;Hello World from RenameFiles&quot;;">
+        <genParameters ecoreParameter="migrator.ecore#//RenameFiles/migrate/projectPath"/>
+        <genParameters ecoreParameter="migrator.ecore#//RenameFiles/migrate/filePath"/>
+      </genOperations>
+    </genClasses>
+    <genClasses ecoreClass="migrator.ecore#//InjectableAnnotation">
+      <genOperations ecoreOperation="migrator.ecore#//InjectableAnnotation/migrate"
+          suppressedVisibility="true" body="return &quot;Hello World from InjectableAnnotation&quot;;">
+        <genParameters ecoreParameter="migrator.ecore#//InjectableAnnotation/migrate/projectPath"/>
+        <genParameters ecoreParameter="migrator.ecore#//InjectableAnnotation/migrate/filePath"/>
+      </genOperations>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:migrator="http://www.fit4003.org/migrator" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_RbctwOvtEemzvfadF6W1QA" selectedViews="_YKXAUOvuEemzvfadF6W1QA" version="14.1.0.201810161215">
+    <semanticResources>tool.migrator</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_YKXAUOvuEemzvfadF6W1QA">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/migrator.design/description/migrator.odesign#//@ownedViewpoints[name='MigratorViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_qLOPYPPeEem-PdoA1ogeaA" name="MigratorDescriptionRepresentation" repPath="#_qJRuoPPeEem-PdoA1ogeaA">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/migrator.design/description/migrator.odesign#//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']"/>
+        <target xmi:type="migrator:mBase" href="tool.migrator#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_qJRuoPPeEem-PdoA1ogeaA" name="MigratorDescriptionRepresentation">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_qLJW4PPeEem-PdoA1ogeaA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_qLJW4fPeEem-PdoA1ogeaA"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_qLlbwPPeEem-PdoA1ogeaA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_qLlbwfPeEem-PdoA1ogeaA" type="Sirius" element="_qJRuoPPeEem-PdoA1ogeaA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_qL1TYPPeEem-PdoA1ogeaA" type="2001" element="_qJ0hMPPeEem-PdoA1ogeaA">
+          <children xmi:type="notation:Node" xmi:id="_qL_EYPPeEem-PdoA1ogeaA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_qL_EYfPeEem-PdoA1ogeaA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qTMfoPPeEem-PdoA1ogeaA" type="3005" element="_qJ-SMPPeEem-PdoA1ogeaA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_qTMfofPeEem-PdoA1ogeaA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qTMfovPeEem-PdoA1ogeaA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_qL1TYfPeEem-PdoA1ogeaA" fontName="Segoe UI" fontHeight="12" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qL1TYvPeEem-PdoA1ogeaA" x="420" y="300" width="141" height="146"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_qP2QsPPeEem-PdoA1ogeaA" type="2001" element="_qKB8kPPeEem-PdoA1ogeaA">
+          <children xmi:type="notation:Node" xmi:id="_qP23wPPeEem-PdoA1ogeaA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_qP23wfPeEem-PdoA1ogeaA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qTNGsPPeEem-PdoA1ogeaA" type="3005" element="_qKB8kfPeEem-PdoA1ogeaA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_qTNGsfPeEem-PdoA1ogeaA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qTNGsvPeEem-PdoA1ogeaA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_qP2QsfPeEem-PdoA1ogeaA" fontName="Segoe UI" fontHeight="12" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qP2QsvPeEem-PdoA1ogeaA" x="80" y="320" width="115" height="115"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_qQVY4PPeEem-PdoA1ogeaA" type="2001" element="_qKCjoPPeEem-PdoA1ogeaA">
+          <children xmi:type="notation:Node" xmi:id="_qQVY4_PeEem-PdoA1ogeaA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_qQVY5PPeEem-PdoA1ogeaA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qTNGs_PeEem-PdoA1ogeaA" type="3005" element="_qKCjofPeEem-PdoA1ogeaA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_qTNGtPPeEem-PdoA1ogeaA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qTNGtfPeEem-PdoA1ogeaA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_qQVY4fPeEem-PdoA1ogeaA" fontName="Segoe UI" fontHeight="12" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qQVY4vPeEem-PdoA1ogeaA" x="655" y="90" width="146" height="145"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_qRU3YPPeEem-PdoA1ogeaA" type="2001" element="_qKCjo_PeEem-PdoA1ogeaA">
+          <children xmi:type="notation:Node" xmi:id="_qRVecPPeEem-PdoA1ogeaA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_qRVecfPeEem-PdoA1ogeaA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qTNGtvPeEem-PdoA1ogeaA" type="3005" element="_qKDKsPPeEem-PdoA1ogeaA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_qTNGt_PeEem-PdoA1ogeaA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qTNGuPPeEem-PdoA1ogeaA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_qRU3YfPeEem-PdoA1ogeaA" fontName="Segoe UI" fontHeight="12" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qRU3YvPeEem-PdoA1ogeaA" x="815" y="330" width="96" height="95"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_qSJ90PPeEem-PdoA1ogeaA" type="2001" element="_qKDKsvPeEem-PdoA1ogeaA">
+          <children xmi:type="notation:Node" xmi:id="_qSKk4PPeEem-PdoA1ogeaA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_qSKk4fPeEem-PdoA1ogeaA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qTNtwPPeEem-PdoA1ogeaA" type="3005" element="_qKDKs_PeEem-PdoA1ogeaA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_qTNtwfPeEem-PdoA1ogeaA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qTNtwvPeEem-PdoA1ogeaA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_qSJ90fPeEem-PdoA1ogeaA" fontName="Segoe UI" fontHeight="12" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qSJ90vPeEem-PdoA1ogeaA" x="426" y="545" width="115" height="121"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_qSU88PPeEem-PdoA1ogeaA" type="2001" element="_qKDKtfPeEem-PdoA1ogeaA">
+          <children xmi:type="notation:Node" xmi:id="_qSU88_PeEem-PdoA1ogeaA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_qSU89PPeEem-PdoA1ogeaA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qTNtw_PeEem-PdoA1ogeaA" type="3005" element="_qKDKtvPeEem-PdoA1ogeaA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_qTNtxPPeEem-PdoA1ogeaA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qTNtxfPeEem-PdoA1ogeaA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_qSU88fPeEem-PdoA1ogeaA" fontName="Segoe UI" fontHeight="12" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qSU88vPeEem-PdoA1ogeaA" x="660" y="513" width="121" height="118"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_qShKMPPeEem-PdoA1ogeaA" type="2001" element="_qKDxwfPeEem-PdoA1ogeaA">
+          <children xmi:type="notation:Node" xmi:id="_qShKM_PeEem-PdoA1ogeaA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_qShKNPPeEem-PdoA1ogeaA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qTOU0PPeEem-PdoA1ogeaA" type="3005" element="_qKDxwvPeEem-PdoA1ogeaA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_qTOU0fPeEem-PdoA1ogeaA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qTOU0vPeEem-PdoA1ogeaA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_qShKMfPeEem-PdoA1ogeaA" fontName="Segoe UI" fontHeight="12" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qShKMvPeEem-PdoA1ogeaA" x="156" y="90" width="150" height="145"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_qSswYPPeEem-PdoA1ogeaA" type="2001" element="_qKDxxPPeEem-PdoA1ogeaA">
+          <children xmi:type="notation:Node" xmi:id="_qStXcPPeEem-PdoA1ogeaA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_qStXcfPeEem-PdoA1ogeaA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qTOU0_PeEem-PdoA1ogeaA" type="3005" element="_qKDxxfPeEem-PdoA1ogeaA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_qTOU1PPeEem-PdoA1ogeaA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qTOU1fPeEem-PdoA1ogeaA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_qSswYfPeEem-PdoA1ogeaA" fontName="Segoe UI" fontHeight="12" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qSswYvPeEem-PdoA1ogeaA" x="423" y="50" width="121" height="120"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_qS4WkPPeEem-PdoA1ogeaA" type="2001" element="_qKDxx_PeEem-PdoA1ogeaA">
+          <children xmi:type="notation:Node" xmi:id="_qS4Wk_PeEem-PdoA1ogeaA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_qS4WlPPeEem-PdoA1ogeaA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qTO74PPeEem-PdoA1ogeaA" type="3005" element="_qKEY0PPeEem-PdoA1ogeaA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_qTO74fPeEem-PdoA1ogeaA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qTO74vPeEem-PdoA1ogeaA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_qS4WkfPeEem-PdoA1ogeaA" fontName="Segoe UI" fontHeight="12" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qS4WkvPeEem-PdoA1ogeaA" x="153" y="520" width="126" height="126"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_qLlbwvPeEem-PdoA1ogeaA"/>
+        <edges xmi:type="notation:Edge" xmi:id="_qTZ7APPeEem-PdoA1ogeaA" type="4001" element="_qLEeYPPeEem-PdoA1ogeaA" source="_qL1TYPPeEem-PdoA1ogeaA" target="_qP2QsPPeEem-PdoA1ogeaA">
+          <children xmi:type="notation:Node" xmi:id="_qTbJIPPeEem-PdoA1ogeaA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qTbJIfPeEem-PdoA1ogeaA" x="5" y="-5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qTbwMPPeEem-PdoA1ogeaA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qTbwMfPeEem-PdoA1ogeaA" x="3" y="11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qTbwMvPeEem-PdoA1ogeaA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qTbwM_PeEem-PdoA1ogeaA" x="-2" y="14"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_qTZ7AfPeEem-PdoA1ogeaA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_qTZ7AvPeEem-PdoA1ogeaA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qTZ7A_PeEem-PdoA1ogeaA" points="[-12, -7, 227, 0]$[-238, -7, 1, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qTk6IPPeEem-PdoA1ogeaA" id="(0.0851063829787234,0.574468085106383)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qTk6IfPeEem-PdoA1ogeaA" id="(0.9826086956521739,0.48695652173913045)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_qTlhMPPeEem-PdoA1ogeaA" type="4001" element="_qLFsgPPeEem-PdoA1ogeaA" source="_qL1TYPPeEem-PdoA1ogeaA" target="_qQVY4PPeEem-PdoA1ogeaA">
+          <children xmi:type="notation:Node" xmi:id="_qTlhNPPeEem-PdoA1ogeaA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qTlhNfPeEem-PdoA1ogeaA" x="6" y="-2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qTlhNvPeEem-PdoA1ogeaA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qTlhN_PeEem-PdoA1ogeaA" x="-2" y="-4"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qTlhOPPeEem-PdoA1ogeaA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qTlhOfPeEem-PdoA1ogeaA" x="-6" y="-1"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_qTlhMfPeEem-PdoA1ogeaA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_qTlhMvPeEem-PdoA1ogeaA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qTlhM_PeEem-PdoA1ogeaA" points="[-72, 31, -307, 96]$[67, -106, -168, -41]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qTlhOvPeEem-PdoA1ogeaA" id="(1.4184397163120566,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qTmIQPPeEem-PdoA1ogeaA" id="(1.36986301369863,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_qTmIQfPeEem-PdoA1ogeaA" type="4001" element="_qLGTkPPeEem-PdoA1ogeaA" source="_qL1TYPPeEem-PdoA1ogeaA" target="_qRU3YPPeEem-PdoA1ogeaA">
+          <children xmi:type="notation:Node" xmi:id="_qTmIRfPeEem-PdoA1ogeaA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qTmIRvPeEem-PdoA1ogeaA" x="-10" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qTmIR_PeEem-PdoA1ogeaA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qTmISPPeEem-PdoA1ogeaA" x="-1" y="6"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qTmISfPeEem-PdoA1ogeaA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qTmISvPeEem-PdoA1ogeaA" x="5" y="7"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_qTmIQvPeEem-PdoA1ogeaA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_qTmIQ_PeEem-PdoA1ogeaA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qTmIRPPeEem-PdoA1ogeaA" points="[-60, 73, -262, -3]$[207, 73, 5, -3]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qTmIS_PeEem-PdoA1ogeaA" id="(1.4184397163120566,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qTmITPPeEem-PdoA1ogeaA" id="(0.07291666666666667,0.4842105263157895)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_qTmITfPeEem-PdoA1ogeaA" type="4001" element="_qLG6oPPeEem-PdoA1ogeaA" source="_qL1TYPPeEem-PdoA1ogeaA" target="_qSJ90PPeEem-PdoA1ogeaA">
+          <children xmi:type="notation:Node" xmi:id="_qTmvUPPeEem-PdoA1ogeaA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qTmvUfPeEem-PdoA1ogeaA" x="-9" y="3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qTmvUvPeEem-PdoA1ogeaA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qTmvU_PeEem-PdoA1ogeaA" x="6" y="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qTmvVPPeEem-PdoA1ogeaA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qTmvVfPeEem-PdoA1ogeaA" x="5" y="3"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_qTmITvPeEem-PdoA1ogeaA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_qTmIT_PeEem-PdoA1ogeaA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qTmIUPPeEem-PdoA1ogeaA" points="[2, 18, 0, -107]$[2, 127, 0, 2]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qTmvVvPeEem-PdoA1ogeaA" id="(0.4397163120567376,0.8698630136986302)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qTmvV_PeEem-PdoA1ogeaA" id="(0.5043478260869565,0.05785123966942149)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_qTmvWPPeEem-PdoA1ogeaA" type="4001" element="_qLG6pfPeEem-PdoA1ogeaA" source="_qL1TYPPeEem-PdoA1ogeaA" target="_qSU88PPeEem-PdoA1ogeaA">
+          <children xmi:type="notation:Node" xmi:id="_qTnWYPPeEem-PdoA1ogeaA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qTnWYfPeEem-PdoA1ogeaA" x="-11" y="-8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qTnWYvPeEem-PdoA1ogeaA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qTnWY_PeEem-PdoA1ogeaA" x="3" y="8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qTnWZPPeEem-PdoA1ogeaA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qTnWZfPeEem-PdoA1ogeaA" x="6" y="7"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_qTmvWfPeEem-PdoA1ogeaA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_qTmvWvPeEem-PdoA1ogeaA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qTmvW_PeEem-PdoA1ogeaA" points="[-66, 105, -306, -248]$[176, 258, -64, -95]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qTnWZvPeEem-PdoA1ogeaA" id="(1.4184397163120566,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qTnWZ_PeEem-PdoA1ogeaA" id="(1.6528925619834711,1.1321433928303586)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_qTnWaPPeEem-PdoA1ogeaA" type="4001" element="_qLHhsPPeEem-PdoA1ogeaA" source="_qL1TYPPeEem-PdoA1ogeaA" target="_qShKMPPeEem-PdoA1ogeaA">
+          <children xmi:type="notation:Node" xmi:id="_qTn9cPPeEem-PdoA1ogeaA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qTn9cfPeEem-PdoA1ogeaA" x="2" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qTn9cvPeEem-PdoA1ogeaA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qTn9c_PeEem-PdoA1ogeaA" x="9" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qTn9dPPeEem-PdoA1ogeaA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qTn9dfPeEem-PdoA1ogeaA" x="6" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_qTnWafPeEem-PdoA1ogeaA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_qTnWavPeEem-PdoA1ogeaA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qTnWa_PeEem-PdoA1ogeaA" points="[-10, 19, 155, 145]$[-180, -104, -15, 22]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qTn9dvPeEem-PdoA1ogeaA" id="(0.19148936170212766,0.0410958904109589)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qTn9d_PeEem-PdoA1ogeaA" id="(0.84,0.6206896551724138)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_qTn9ePPeEem-PdoA1ogeaA" type="4001" element="_qLIIwPPeEem-PdoA1ogeaA" source="_qL1TYPPeEem-PdoA1ogeaA" target="_qSswYPPeEem-PdoA1ogeaA">
+          <children xmi:type="notation:Node" xmi:id="_qTokgPPeEem-PdoA1ogeaA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qTokgfPeEem-PdoA1ogeaA" x="13" y="3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qTokgvPeEem-PdoA1ogeaA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qTokg_PeEem-PdoA1ogeaA" x="-5" y="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qTokhPPeEem-PdoA1ogeaA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qTokhfPeEem-PdoA1ogeaA" x="-9" y="-4"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_qTn9efPeEem-PdoA1ogeaA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_qTn9evPeEem-PdoA1ogeaA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qTn9e_PeEem-PdoA1ogeaA" points="[-132, 0, 5, 131]$[-132, -131, 5, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qTokhvPeEem-PdoA1ogeaA" id="(1.4184397163120566,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qTokh_PeEem-PdoA1ogeaA" id="(0.49586776859504134,0.9916666666666667)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_qTokiPPeEem-PdoA1ogeaA" type="4001" element="_qLIIxfPeEem-PdoA1ogeaA" source="_qL1TYPPeEem-PdoA1ogeaA" target="_qS4WkPPeEem-PdoA1ogeaA">
+          <children xmi:type="notation:Node" xmi:id="_qTpLkPPeEem-PdoA1ogeaA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qTpLkfPeEem-PdoA1ogeaA" x="6" y="2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qTpLkvPeEem-PdoA1ogeaA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qTpLk_PeEem-PdoA1ogeaA" x="-4" y="2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qTpLlPPeEem-PdoA1ogeaA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qTpLlfPeEem-PdoA1ogeaA" x="-4" y="2"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_qTokifPeEem-PdoA1ogeaA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_qTokivPeEem-PdoA1ogeaA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qToki_PeEem-PdoA1ogeaA" points="[-2, 14, 87, -612]$[-165, 107, -76, -519]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qTpLlvPeEem-PdoA1ogeaA" id="(0.16312056737588654,0.9078014184397163)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qTpLl_PeEem-PdoA1ogeaA" id="(1.5952380952380953,4.26984126984127)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_qJ0hMPPeEem-PdoA1ogeaA" name="Ionic3Migrator" outgoingEdges="_qLEeYPPeEem-PdoA1ogeaA _qLFsgPPeEem-PdoA1ogeaA _qLGTkPPeEem-PdoA1ogeaA _qLG6oPPeEem-PdoA1ogeaA _qLG6pfPeEem-PdoA1ogeaA _qLHhsPPeEem-PdoA1ogeaA _qLIIwPPeEem-PdoA1ogeaA _qLIIxfPeEem-PdoA1ogeaA" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="migrator:Migrator" href="tool.migrator#//@migrators.0"/>
+      <semanticElements xmi:type="migrator:Migrator" href="tool.migrator#//@migrators.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_qJ-SMPPeEem-PdoA1ogeaA" labelSize="12" labelPosition="node" workspacePath="/migrator.design/description/images/migrate.svg">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/migrator.design/description/migrator.odesign#//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@nodeMappings[name='migratorNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/migrator.design/description/migrator.odesign#//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@nodeMappings[name='migratorNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_qKB8kPPeEem-PdoA1ogeaA" name="IonButton" incomingEdges="_qLEeYPPeEem-PdoA1ogeaA" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="migrator:IonButton" href="tool.migrator#//@migrators.0/@components.0"/>
+      <semanticElements xmi:type="migrator:IonButton" href="tool.migrator#//@migrators.0/@components.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_qKB8kfPeEem-PdoA1ogeaA" labelSize="12" labelPosition="node" workspacePath="/migrator.design/description/images/play-button.svg">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/migrator.design/description/migrator.odesign#//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@nodeMappings[name='ionButtonNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/migrator.design/description/migrator.odesign#//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@nodeMappings[name='ionButtonNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_qKCjoPPeEem-PdoA1ogeaA" name="IonViewDidLoad" incomingEdges="_qLFsgPPeEem-PdoA1ogeaA" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="migrator:IonViewDidLoad" href="tool.migrator#//@migrators.0/@components.1"/>
+      <semanticElements xmi:type="migrator:IonViewDidLoad" href="tool.migrator#//@migrators.0/@components.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_qKCjofPeEem-PdoA1ogeaA" labelSize="12" labelPosition="node" workspacePath="/migrator.design/description/images/loading.svg">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/migrator.design/description/migrator.odesign#//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@nodeMappings[name='ionViewDidLoadNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/migrator.design/description/migrator.odesign#//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@nodeMappings[name='ionViewDidLoadNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_qKCjo_PeEem-PdoA1ogeaA" name="IonLabel" incomingEdges="_qLGTkPPeEem-PdoA1ogeaA" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="migrator:IonLabel" href="tool.migrator#//@migrators.0/@components.2"/>
+      <semanticElements xmi:type="migrator:IonLabel" href="tool.migrator#//@migrators.0/@components.2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_qKDKsPPeEem-PdoA1ogeaA" labelSize="12" labelPosition="node" workspacePath="/migrator.design/description/images/price-tag.svg">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/migrator.design/description/migrator.odesign#//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@nodeMappings[name='ionLabelNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/migrator.design/description/migrator.odesign#//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@nodeMappings[name='ionLabelNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_qKDKsvPeEem-PdoA1ogeaA" name="IonicImport" incomingEdges="_qLG6oPPeEem-PdoA1ogeaA" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="migrator:IonicImport" href="tool.migrator#//@migrators.0/@components.3"/>
+      <semanticElements xmi:type="migrator:IonicImport" href="tool.migrator#//@migrators.0/@components.3"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_qKDKs_PeEem-PdoA1ogeaA" labelSize="12" labelPosition="node" workspacePath="/migrator.design/description/images/import.svg">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/migrator.design/description/migrator.odesign#//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@nodeMappings[name='ionicImportNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/migrator.design/description/migrator.odesign#//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@nodeMappings[name='ionicImportNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_qKDKtfPeEem-PdoA1ogeaA" name="IonicPageAnnotation" incomingEdges="_qLG6pfPeEem-PdoA1ogeaA" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="migrator:IonicPageAnnotation" href="tool.migrator#//@migrators.0/@components.4"/>
+      <semanticElements xmi:type="migrator:IonicPageAnnotation" href="tool.migrator#//@migrators.0/@components.4"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_qKDKtvPeEem-PdoA1ogeaA" labelSize="12" labelPosition="node" workspacePath="/migrator.design/description/images/data.svg">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/migrator.design/description/migrator.odesign#//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@nodeMappings[name='ionicPageAnnotationNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/migrator.design/description/migrator.odesign#//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@nodeMappings[name='ionicPageAnnotationNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_qKDxwfPeEem-PdoA1ogeaA" name="IonNavbar" incomingEdges="_qLHhsPPeEem-PdoA1ogeaA" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="migrator:IonNavbar" href="tool.migrator#//@migrators.0/@components.5"/>
+      <semanticElements xmi:type="migrator:IonNavbar" href="tool.migrator#//@migrators.0/@components.5"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_qKDxwvPeEem-PdoA1ogeaA" labelSize="12" labelPosition="node" workspacePath="/migrator.design/description/images/maps-and-flags.svg">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/migrator.design/description/migrator.odesign#//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@nodeMappings[name='ionNavbarNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/migrator.design/description/migrator.odesign#//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@nodeMappings[name='ionNavbarNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_qKDxxPPeEem-PdoA1ogeaA" name="RenameFiles" incomingEdges="_qLIIwPPeEem-PdoA1ogeaA" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="migrator:RenameFiles" href="tool.migrator#//@migrators.0/@components.7"/>
+      <semanticElements xmi:type="migrator:RenameFiles" href="tool.migrator#//@migrators.0/@components.7"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_qKDxxfPeEem-PdoA1ogeaA" labelSize="12" labelPosition="node" workspacePath="/migrator.design/description/images/file.svg">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/migrator.design/description/migrator.odesign#//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@nodeMappings[name='renameFilesNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/migrator.design/description/migrator.odesign#//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@nodeMappings[name='renameFilesNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_qKDxx_PeEem-PdoA1ogeaA" name="InjectableAnnotation" incomingEdges="_qLIIxfPeEem-PdoA1ogeaA" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="migrator:InjectableAnnotation" href="tool.migrator#//@migrators.0/@components.6"/>
+      <semanticElements xmi:type="migrator:InjectableAnnotation" href="tool.migrator#//@migrators.0/@components.6"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_qKEY0PPeEem-PdoA1ogeaA" labelSize="12" labelPosition="node" workspacePath="/migrator.design/description/images/at.svg">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/migrator.design/description/migrator.odesign#//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@nodeMappings[name='injectableAnnotationNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/migrator.design/description/migrator.odesign#//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@nodeMappings[name='injectableAnnotationNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_qLEeYPPeEem-PdoA1ogeaA" sourceNode="_qJ0hMPPeEem-PdoA1ogeaA" targetNode="_qKB8kPPeEem-PdoA1ogeaA">
+      <target xmi:type="migrator:Migrator" href="tool.migrator#//@migrators.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_qLEeYfPeEem-PdoA1ogeaA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/migrator.design/description/migrator.odesign#//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@edgeMappings[name='migratorToIonButton']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_qLEeYvPeEem-PdoA1ogeaA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/migrator.design/description/migrator.odesign#//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@edgeMappings[name='migratorToIonButton']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_qLFsgPPeEem-PdoA1ogeaA" sourceNode="_qJ0hMPPeEem-PdoA1ogeaA" targetNode="_qKCjoPPeEem-PdoA1ogeaA">
+      <target xmi:type="migrator:Migrator" href="tool.migrator#//@migrators.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_qLFsgfPeEem-PdoA1ogeaA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/migrator.design/description/migrator.odesign#//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@edgeMappings[name='migratorToIonViewDidLoad']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_qLFsgvPeEem-PdoA1ogeaA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/migrator.design/description/migrator.odesign#//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@edgeMappings[name='migratorToIonViewDidLoad']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_qLGTkPPeEem-PdoA1ogeaA" sourceNode="_qJ0hMPPeEem-PdoA1ogeaA" targetNode="_qKCjo_PeEem-PdoA1ogeaA">
+      <target xmi:type="migrator:Migrator" href="tool.migrator#//@migrators.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_qLGTkfPeEem-PdoA1ogeaA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/migrator.design/description/migrator.odesign#//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@edgeMappings[name='migratorToIonLabel']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_qLGTkvPeEem-PdoA1ogeaA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/migrator.design/description/migrator.odesign#//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@edgeMappings[name='migratorToIonLabel']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_qLG6oPPeEem-PdoA1ogeaA" sourceNode="_qJ0hMPPeEem-PdoA1ogeaA" targetNode="_qKDKsvPeEem-PdoA1ogeaA">
+      <target xmi:type="migrator:Migrator" href="tool.migrator#//@migrators.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_qLG6ofPeEem-PdoA1ogeaA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/migrator.design/description/migrator.odesign#//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@edgeMappings[name='migratorToIonicImport']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_qLG6ovPeEem-PdoA1ogeaA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/migrator.design/description/migrator.odesign#//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@edgeMappings[name='migratorToIonicImport']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_qLG6pfPeEem-PdoA1ogeaA" sourceNode="_qJ0hMPPeEem-PdoA1ogeaA" targetNode="_qKDKtfPeEem-PdoA1ogeaA">
+      <target xmi:type="migrator:Migrator" href="tool.migrator#//@migrators.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_qLG6pvPeEem-PdoA1ogeaA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/migrator.design/description/migrator.odesign#//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@edgeMappings[name='migratorToIonicPageAnnotation']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_qLG6p_PeEem-PdoA1ogeaA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/migrator.design/description/migrator.odesign#//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@edgeMappings[name='migratorToIonicPageAnnotation']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_qLHhsPPeEem-PdoA1ogeaA" sourceNode="_qJ0hMPPeEem-PdoA1ogeaA" targetNode="_qKDxwfPeEem-PdoA1ogeaA">
+      <target xmi:type="migrator:Migrator" href="tool.migrator#//@migrators.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_qLHhsfPeEem-PdoA1ogeaA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/migrator.design/description/migrator.odesign#//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@edgeMappings[name='migratorToIonNavbar']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_qLHhsvPeEem-PdoA1ogeaA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/migrator.design/description/migrator.odesign#//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@edgeMappings[name='migratorToIonNavbar']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_qLIIwPPeEem-PdoA1ogeaA" sourceNode="_qJ0hMPPeEem-PdoA1ogeaA" targetNode="_qKDxxPPeEem-PdoA1ogeaA">
+      <target xmi:type="migrator:Migrator" href="tool.migrator#//@migrators.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_qLIIwfPeEem-PdoA1ogeaA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/migrator.design/description/migrator.odesign#//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@edgeMappings[name='migratorToRenameFiles']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_qLIIwvPeEem-PdoA1ogeaA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/migrator.design/description/migrator.odesign#//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@edgeMappings[name='migratorToRenameFiles']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_qLIIxfPeEem-PdoA1ogeaA" sourceNode="_qJ0hMPPeEem-PdoA1ogeaA" targetNode="_qKDxx_PeEem-PdoA1ogeaA">
+      <target xmi:type="migrator:Migrator" href="tool.migrator#//@migrators.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_qLIIxvPeEem-PdoA1ogeaA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/migrator.design/description/migrator.odesign#//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@edgeMappings[name='migratorToInjectableAnnotation']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_qLIIx_PeEem-PdoA1ogeaA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/migrator.design/description/migrator.odesign#//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer/@edgeMappings[name='migratorToInjectableAnnotation']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/migrator.design/description/migrator.odesign#//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_qJaRgPPeEem-PdoA1ogeaA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/migrator.design/description/migrator.odesign#//@ownedViewpoints[name='MigratorViewpoint']/@ownedRepresentations[name='MigratorDescription']/@defaultLayer"/>
+    <target xmi:type="migrator:mBase" href="tool.migrator#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

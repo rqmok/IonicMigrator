@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:mtl="http://www.eclipse.org/acceleo/mtl/3.0" xmlns:ocl.ecore="http://www.eclipse.org/ocl/1.1.0/Ecore">
+  <mtl:Module name="generate" nsURI="org::eclipse::acceleo::migrator::gencode::main::generate" startHeaderPosition="29" endHeaderPosition="150">
+    <input>
+      <takesTypesFrom href="http://www.fit4003.org/migrator#/"/>
+    </input>
+    <ownedModuleElement xsi:type="mtl:Template" name="migrateComponents" visibility="Public" main="true">
+      <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&#xA;"/>
+      <body xsi:type="mtl:ForBlock">
+        <body xsi:type="mtl:LetBlock">
+          <body xsi:type="mtl:ForBlock">
+            <body xsi:type="mtl:LetBlock">
+              <body xsi:type="mtl:LetBlock">
+                <body xsi:type="mtl:IfBlock">
+                  <body xsi:type="mtl:FileBlock" openMode="OverWrite">
+                    <body xsi:type="ocl.ecore:VariableExp" name="result" referredVariable="/0/migrateComponents/%.1/%/%/%/%/result">
+                      <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+                    </body>
+                    <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&#xA;"/>
+                    <fileUrl xsi:type="ocl.ecore:VariableExp" name="filePath" referredVariable="/0/migrateComponents/%.1/%/%/%/filePath">
+                      <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+                    </fileUrl>
+                    <charset xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="UTF-8">
+                      <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+                    </charset>
+                  </body>
+                  <ifExpr xsi:type="ocl.ecore:OperationCallExp">
+                    <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Boolean"/>
+                    <source xsi:type="ocl.ecore:OperationCallExp">
+                      <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Integer"/>
+                      <source xsi:type="ocl.ecore:VariableExp" name="result" referredVariable="/0/migrateComponents/%.1/%/%/%/%/result">
+                        <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+                      </source>
+                      <referredOperation xsi:type="ecore:EOperation" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String_Class/size"/>
+                    </source>
+                    <argument xsi:type="ocl.ecore:IntegerLiteralExp" integerSymbol="0">
+                      <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Integer"/>
+                    </argument>
+                    <referredOperation xsi:type="ecore:EOperation" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Integer_Class/%3E"/>
+                  </ifExpr>
+                </body>
+                <letVariable name="result">
+                  <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+                  <initExpression xsi:type="ocl.ecore:OperationCallExp">
+                    <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+                    <source xsi:type="ocl.ecore:VariableExp" name="component" referredVariable="/0/migrateComponents/%.1/%/%/component">
+                      <eType xsi:type="ecore:EClass" href="http://www.fit4003.org/migrator#//Component"/>
+                    </source>
+                    <argument xsi:type="ocl.ecore:VariableExp" name="projectPath" referredVariable="/0/migrateComponents/%.1/%/projectPath">
+                      <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+                    </argument>
+                    <argument xsi:type="ocl.ecore:VariableExp" name="filePath" referredVariable="/0/migrateComponents/%.1/%/%/%/filePath">
+                      <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+                    </argument>
+                    <referredOperation xsi:type="ecore:EOperation" href="http://www.fit4003.org/migrator#//Component/migrate"/>
+                  </initExpression>
+                </letVariable>
+              </body>
+              <letVariable name="filePath">
+                <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+                <initExpression xsi:type="ocl.ecore:PropertyCallExp">
+                  <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+                  <source xsi:type="ocl.ecore:VariableExp" name="component" referredVariable="/0/migrateComponents/%.1/%/%/component">
+                    <eType xsi:type="ecore:EClass" href="http://www.fit4003.org/migrator#//Component"/>
+                  </source>
+                  <referredProperty xsi:type="ecore:EAttribute" href="http://www.fit4003.org/migrator#//Component/filePath"/>
+                </initExpression>
+              </letVariable>
+            </body>
+            <loopVariable name="component">
+              <eType xsi:type="ecore:EClass" href="http://www.fit4003.org/migrator#//Component"/>
+            </loopVariable>
+            <iterSet xsi:type="ocl.ecore:PropertyCallExp" eType="/6/OrderedSet(Component)">
+              <source xsi:type="ocl.ecore:VariableExp" name="migrator" referredVariable="/0/migrateComponents/%.1/migrator">
+                <eType xsi:type="ecore:EClass" href="http://www.fit4003.org/migrator#//Migrator"/>
+              </source>
+              <referredProperty xsi:type="ecore:EReference" href="http://www.fit4003.org/migrator#//Migrator/components"/>
+            </iterSet>
+          </body>
+          <letVariable name="projectPath">
+            <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+            <initExpression xsi:type="ocl.ecore:PropertyCallExp">
+              <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+              <source xsi:type="ocl.ecore:VariableExp" name="migrator" referredVariable="/0/migrateComponents/%.1/migrator">
+                <eType xsi:type="ecore:EClass" href="http://www.fit4003.org/migrator#//Migrator"/>
+              </source>
+              <referredProperty xsi:type="ecore:EAttribute" href="http://www.fit4003.org/migrator#//Migrator/projectPath"/>
+            </initExpression>
+          </letVariable>
+        </body>
+        <loopVariable name="migrator">
+          <eType xsi:type="ecore:EClass" href="http://www.fit4003.org/migrator#//Migrator"/>
+        </loopVariable>
+        <iterSet xsi:type="ocl.ecore:PropertyCallExp" eType="/6/OrderedSet(Migrator)">
+          <source xsi:type="ocl.ecore:VariableExp" name="amBase" referredVariable="/0/migrateComponents/amBase">
+            <eType xsi:type="ecore:EClass" href="http://www.fit4003.org/migrator#//mBase"/>
+          </source>
+          <referredProperty xsi:type="ecore:EReference" href="http://www.fit4003.org/migrator#//mBase/migrators"/>
+        </iterSet>
+      </body>
+      <parameter name="amBase">
+        <eType xsi:type="ecore:EClass" href="http://www.fit4003.org/migrator#//mBase"/>
+      </parameter>
+    </ownedModuleElement>
+  </mtl:Module>
+  <ecore:EPackage name="additions">
+    <eClassifiers xsi:type="ecore:EClass" name="oclstdlib_String_Class">
+      <eAnnotations source="http://www.eclipse.org/ocl/1.1.0/OCL">
+        <references href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+      </eAnnotations>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="oclstdlib_Integer_Class">
+      <eAnnotations source="http://www.eclipse.org/ocl/1.1.0/OCL">
+        <references href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Integer"/>
+      </eAnnotations>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="oclstdlib_Real_Class">
+      <eAnnotations source="http://www.eclipse.org/ocl/1.1.0/OCL">
+        <references href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Real"/>
+      </eAnnotations>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="ecore_EObject_Class">
+      <eAnnotations source="http://www.eclipse.org/ocl/1.1.0/OCL">
+        <references href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+      </eAnnotations>
+      <eOperations name="migrateComponents">
+        <eAnnotations source="http://www.eclipse.org/ocl/1.1.0/OCL">
+          <contents xsi:type="ocl.ecore:Constraint"/>
+        </eAnnotations>
+        <eAnnotations source="MTL" references="/0/migrateComponents"/>
+        <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+        <eParameters name="amBase">
+          <eType xsi:type="ecore:EClass" href="http://www.fit4003.org/migrator#//mBase"/>
+        </eParameters>
+      </eOperations>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="oclstdlib_OclAny_Class">
+      <eAnnotations source="http://www.eclipse.org/ocl/1.1.0/OCL">
+        <references href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/OclAny"/>
+      </eAnnotations>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="oclstdlib_Collection(T)_Class">
+      <eAnnotations source="http://www.eclipse.org/ocl/1.1.0/OCL">
+        <references href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Collection(T)"/>
+      </eAnnotations>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="oclstdlib_Sequence(T)_Class">
+      <eAnnotations source="http://www.eclipse.org/ocl/1.1.0/OCL">
+        <references href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Sequence(T)"/>
+      </eAnnotations>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="oclstdlib_OrderedSet(T)_Class">
+      <eAnnotations source="http://www.eclipse.org/ocl/1.1.0/OCL">
+        <references href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/OrderedSet(T)"/>
+      </eAnnotations>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="migrator_mBase_Class">
+      <eAnnotations source="http://www.eclipse.org/ocl/1.1.0/OCL">
+        <references href="http://www.fit4003.org/migrator#//mBase"/>
+      </eAnnotations>
+    </eClassifiers>
+  </ecore:EPackage>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.fit4003.org/migrator#//mBase"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.fit4003.org/migrator#//mBase"/>
+  </ocl.ecore:Variable>
+  <ecore:EPackage name="collections">
+    <eClassifiers xsi:type="ocl.ecore:OrderedSetType" name="OrderedSet(Migrator)" instanceClassName="java.util.LinkedHashSet">
+      <elementType xsi:type="ecore:EClass" href="http://www.fit4003.org/migrator#//Migrator"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ocl.ecore:OrderedSetType" name="OrderedSet(Component)" instanceClassName="java.util.LinkedHashSet">
+      <elementType xsi:type="ecore:EClass" href="http://www.fit4003.org/migrator#//Component"/>
+    </eClassifiers>
+  </ecore:EPackage>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.fit4003.org/migrator#//mBase"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.fit4003.org/migrator#//Migrator"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.fit4003.org/migrator#//Migrator"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.fit4003.org/migrator#//Migrator"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.fit4003.org/migrator#//Component"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.fit4003.org/migrator#//Component"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.fit4003.org/migrator#//Component"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.fit4003.org/migrator#//Component"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.fit4003.org/migrator#//Component"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.fit4003.org/migrator#//Component"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.fit4003.org/migrator#//Component"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.fit4003.org/migrator#//Migrator"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="i">
+    <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Integer"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.fit4003.org/migrator#//mBase"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="i">
+    <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Integer"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+  </ocl.ecore:Variable>
+  <ecore:EAnnotation source="positions">
+    <eAnnotations source="positions.0" references="/0/migrateComponents">
+      <details key="start" value="83"/>
+      <details key="end" value="1067"/>
+      <details key="line" value="4"/>
+    </eAnnotations>
+    <eAnnotations source="positions.1" references="/0/migrateComponents/%">
+      <details key="start" value="153"/>
+      <details key="end" value="154"/>
+      <details key="line" value="6"/>
+    </eAnnotations>
+    <eAnnotations source="positions.2" references="/0/migrateComponents/%.1">
+      <details key="start" value="214"/>
+      <details key="end" value="1055"/>
+      <details key="line" value="8"/>
+    </eAnnotations>
+    <eAnnotations source="positions.3" references="/0/migrateComponents/%.1/%">
+      <details key="start" value="328"/>
+      <details key="end" value="1047"/>
+      <details key="line" value="10"/>
+    </eAnnotations>
+    <eAnnotations source="positions.4" references="/0/migrateComponents/%.1/%/%">
+      <details key="start" value="446"/>
+      <details key="end" value="1038"/>
+      <details key="line" value="12"/>
+    </eAnnotations>
+    <eAnnotations source="positions.5" references="/0/migrateComponents/%.1/%/%/%">
+      <details key="start" value="568"/>
+      <details key="end" value="1028"/>
+      <details key="line" value="14"/>
+    </eAnnotations>
+    <eAnnotations source="positions.6" references="/0/migrateComponents/%.1/%/%/%/%">
+      <details key="start" value="664"/>
+      <details key="end" value="1017"/>
+      <details key="line" value="16"/>
+    </eAnnotations>
+    <eAnnotations source="positions.7" references="/0/migrateComponents/%.1/%/%/%/%/%">
+      <details key="start" value="795"/>
+      <details key="end" value="1005"/>
+      <details key="line" value="18"/>
+    </eAnnotations>
+    <eAnnotations source="positions.8" references="/0/migrateComponents/%.1/%/%/%/%/%/%">
+      <details key="start" value="891"/>
+      <details key="end" value="993"/>
+      <details key="line" value="20"/>
+    </eAnnotations>
+    <eAnnotations source="positions.9" references="/0/migrateComponents/%.1/%/%/%/%/%/%/result">
+      <details key="start" value="970"/>
+      <details key="end" value="976"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.10" references="/0/migrateComponents/%.1/%/%/%/%/%/%/%">
+      <details key="start" value="978"/>
+      <details key="end" value="979"/>
+      <details key="line" value="23"/>
+    </eAnnotations>
+    <eAnnotations source="positions.11" references="/0/migrateComponents/%.1/%/%/%/%/%/%/filePath">
+      <details key="start" value="898"/>
+      <details key="end" value="906"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.12" references="/0/migrateComponents/%.1/%/%/%/%/%/%/%.1">
+      <details key="start" value="915"/>
+      <details key="end" value="922"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.13" references="/0/migrateComponents/%.1/%/%/%/%/%/%.1">
+      <details key="start" value="799"/>
+      <details key="end" value="818"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.14" references="/0/migrateComponents/%.1/%/%/%/%/%/%.1/%">
+      <details key="start" value="800"/>
+      <details key="end" value="813"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.15" references="/0/migrateComponents/%.1/%/%/%/%/%/%.1/%/result">
+      <details key="start" value="800"/>
+      <details key="end" value="806"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.16" references="/0/migrateComponents/%.1/%/%/%/%/%/%.1/%.1">
+      <details key="start" value="816"/>
+      <details key="end" value="817"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.17" references="/0/migrateComponents/%.1/%/%/%/%/result">
+      <details key="start" value="669"/>
+      <details key="end" value="727"/>
+      <details key="line" value="16"/>
+    </eAnnotations>
+    <eAnnotations source="positions.18" references="/0/migrateComponents/%.1/%/%/%/%/result/%">
+      <details key="start" value="688"/>
+      <details key="end" value="728"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.19" references="/0/migrateComponents/%.1/%/%/%/%/result/%/component">
+      <details key="start" value="688"/>
+      <details key="end" value="697"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.20" references="/0/migrateComponents/%.1/%/%/%/%/result/%/projectPath">
+      <details key="start" value="706"/>
+      <details key="end" value="717"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.21" references="/0/migrateComponents/%.1/%/%/%/%/result/%/filePath">
+      <details key="start" value="719"/>
+      <details key="end" value="727"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.22" references="/0/migrateComponents/%.1/%/%/%/filePath">
+      <details key="start" value="573"/>
+      <details key="end" value="611"/>
+      <details key="line" value="14"/>
+    </eAnnotations>
+    <eAnnotations source="positions.23" references="/0/migrateComponents/%.1/%/%/%/filePath/%">
+      <details key="start" value="594"/>
+      <details key="end" value="612"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.24" references="/0/migrateComponents/%.1/%/%/%/filePath/%/component">
+      <details key="start" value="594"/>
+      <details key="end" value="603"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.25" references="/0/migrateComponents/%.1/%/%/component">
+      <details key="start" value="452"/>
+      <details key="end" value="473"/>
+      <details key="line" value="12"/>
+    </eAnnotations>
+    <eAnnotations source="positions.26" references="/0/migrateComponents/%.1/%/%/%.1">
+      <details key="start" value="476"/>
+      <details key="end" value="495"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.27" references="/0/migrateComponents/%.1/%/%/%.1/migrator">
+      <details key="start" value="476"/>
+      <details key="end" value="484"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.28" references="/0/migrateComponents/%.1/%/projectPath">
+      <details key="start" value="333"/>
+      <details key="end" value="376"/>
+      <details key="line" value="10"/>
+    </eAnnotations>
+    <eAnnotations source="positions.29" references="/0/migrateComponents/%.1/%/projectPath/%">
+      <details key="start" value="357"/>
+      <details key="end" value="377"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.30" references="/0/migrateComponents/%.1/%/projectPath/%/migrator">
+      <details key="start" value="357"/>
+      <details key="end" value="365"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.31" references="/0/migrateComponents/%.1/migrator">
+      <details key="start" value="220"/>
+      <details key="end" value="239"/>
+      <details key="line" value="8"/>
+    </eAnnotations>
+    <eAnnotations source="positions.32" references="/0/migrateComponents/%.1/%.1">
+      <details key="start" value="242"/>
+      <details key="end" value="258"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.33" references="/0/migrateComponents/%.1/%.1/amBase">
+      <details key="start" value="242"/>
+      <details key="end" value="248"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.34" references="/0/migrateComponents/amBase">
+      <details key="start" value="118"/>
+      <details key="end" value="132"/>
+      <details key="line" value="4"/>
+    </eAnnotations>
+  </ecore:EAnnotation>
+</xmi:XMI>
